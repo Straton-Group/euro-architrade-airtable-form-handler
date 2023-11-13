@@ -55,7 +55,7 @@ async function submitHandler(request, env) {
 
 export default {
 	async fetch(request, env) {
-		const base = 'https://eurochennai.design/';
+		const base = 'https://eurochennai.design/thank-you/';
 		const statusCode = 301;
 		const destinationURL = `${base}`;
 
